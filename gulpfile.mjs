@@ -327,6 +327,9 @@ function createWebpackConfig(
         defines: bundleDefines,
       },
     ],
+    "@babel/plugin-transform-private-methods",
+    "@babel/plugin-transform-class-static-block",
+    "@babel/plugin-transform-class-properties",
   ];
 
   const plugins = [];

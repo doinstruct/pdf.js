@@ -1,6 +1,9 @@
 {
   "name": "pdf.js",
   "type": "module",
+  "scripts": {
+    "build:legacy": "npx gulp generic-legacy && npx gulp generic-legacy #Due to a wreid issue building it twice is more stable."
+  },
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
