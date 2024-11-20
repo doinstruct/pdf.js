@@ -2,7 +2,8 @@
   "name": "@doinstruct/pdf.js",
   "type": "module",
   "scripts": {
-    "build:legacy": "npx gulp dist"
+    "build:legacy": "npx gulp dist",
+    "packages:publish": "npm publish"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
