@@ -49,6 +49,5 @@ jobs:
       - name: Publish the `pdfjs-dist` library to NPM
         # run: npm publish ./build/dist --provenance
         run: npm run packages:publish
-        working-directory: ./build/dist
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

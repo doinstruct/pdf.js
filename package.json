@@ -3,7 +3,7 @@
   "type": "module",
   "scripts": {
     "build:legacy": "npx gulp dist",
-    "packages:publish": "npm publish"
+    "packages:publish": "npm publish ./build/dist --provenance"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
