@@ -2270,6 +2270,9 @@ function packageJson() {
       node: ">=20",
     },
     scripts: {},
+    publishConfig: {
+      "@doinstruct:registry": "https://npm.pkg.github.com",
+    },
   };
 
   return createStringSource(
