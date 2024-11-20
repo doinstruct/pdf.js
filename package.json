@@ -1,8 +1,8 @@
 {
-  "name": "pdf.js",
+  "name": "@doinstruct/pdf.js",
   "type": "module",
   "scripts": {
-    "build:legacy": "npx gulp generic-legacy && npx gulp generic-legacy #Due to a wreid issue building it twice is more stable."
+    "build:legacy": "npx gulp dist"
   },
   "devDependencies": {
     "@babel/core": "^7.26.0",
